@@ -19,4 +19,8 @@ public class PlayService {
 	public List<Play> list(){
 		return playDao.findAll();
 	}
+	
+	public Play findById(Long id){
+		return playDao.findById(id);
+	}
 }
