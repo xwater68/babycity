@@ -8,4 +8,6 @@ import com.babycity.entity.Play;
 
 public interface PlayDao extends Repository<Play, Long>{
 	public List<Play> findAll();
+	
+	public Play findById(Long id);
 }
